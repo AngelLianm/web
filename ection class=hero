@@ -1,0 +1,112 @@
+[1mdiff --git a/estilo.css b/estilo.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1ac81a4[m
+[1m--- /dev/null[m
+[1m+++ b/estilo.css[m
+[36m@@ -0,0 +1,105 @@[m
+[32m+[m[32m/* Reset básico */[m
+[32m+[m[32m* {[m
+[32m+[m[32m    margin: 0;[m
+[32m+[m[32m    padding: 0;[m
+[32m+[m[32m    box-sizing: border-box;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mbody {[m
+[32m+[m[32m    font-family: 'Arial', sans-serif;[m
+[32m+[m[32m    line-height: 1.6;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.container {[m
+[32m+[m[32m    width: 90%;[m
+[32m+[m[32m    max-width: 1200px;[m
+[32m+[m[32m    margin: 0 auto;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* Header */[m
+[32m+[m[32m.header {[m
+[32m+[m[32m    background: #333;[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    padding: 1rem 0;[m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.logo h1 {[m
+[32m+[m[32m    font-size: 24px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.menu {[m
+[32m+[m[32m    display: flex;[m
+[32m+[m[32m    gap: 30px;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.menu a {[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    text-decoration: none;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* Hero Section */[m
+[32m+[m
+[32m+[m
+[32m+[m[32m.hero h2 {[m
+[32m+[m[32m    font-size: 2.5rem;[m
+[32m+[m[32m    margin-bottom: 1rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.hero p {[m
+[32m+[m[32m    color: #666;[m
+[32m+[m[32m    margin-bottom: 2rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.btn {[m
+[32m+[m[32m    background: #007bff;[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    padding: 10px 25px;[m
+[32m+[m[32m    border: none;[m
+[32m+[m[32m    border-radius: 5px;[m
+[32m+[m[32m    cursor: pointer;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* Features */[m
+[32m+[m[32m.features {[m
+[32m+[m[32m    padding: 4rem 0;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.features .container {[m
+[32m+[m[32m    display: grid;[m
+[32m+[m[32m    grid-template-columns: repeat(3, 1fr);[m
+[32m+[m[32m    gap: 2rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.feature-card {[m
+[32m+[m[32m    background: white;[m
+[32m+[m[32m    padding: 2rem;[m
+[32m+[m[32m    border-radius: 10px;[m
+[32m+[m[32m    box-shadow: 0 2px 5px rgba(0,0,0,0.1);[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* Footer */[m
+[32m+[m[32m.footer {[m
+[32m+[m[32m    background: #333;[m
+[32m+[m[32m    color: white;[m
+[32m+[m[32m    padding: 2rem 0;[m
+[32m+[m[32m    text-align: center;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* Responsive Design */[m
+[32m+[m[32m@media (max-width: 768px) {[m
+[32m+[m[32m    .features .container {[m
+[32m+[m[32m        grid-template-columns: 1fr;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    .header .container {[m
+[32m+[m[32m        flex-direction: column;[m
+[32m+[m[32m        text-align: center;[m
+[32m+[m[32m        gap: 1rem;[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    .hero h2 {[m
+[32m+[m[32m        font-size: 1.8rem;[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
